@@ -255,7 +255,7 @@
 			global $_REQUEST;
 
 			// Create the XSLT
-			$xsl = $_SERVER['DOCUMENT_ROOT'] . '/assets/code/' . $this->Type() . '.xslt';
+			$xsl = $_SERVER['DOCUMENT_ROOT'] . '/sudzc/assets/code/' . $this->Type() . '.xslt';
 			$xslFile = new DOMDocument();
 			$xslFile->load($xsl);
 			$xslt = new XSLTProcessor();
@@ -369,7 +369,7 @@
 		}
 		
 		public function MapPath($path) {
-			return $_SERVER['DOCUMENT_ROOT'] . '/assets/code/' . $path;
+			return $_SERVER['DOCUMENT_ROOT'] . '/sudzc/assets/code/' . $path;
 		}
 
         /**

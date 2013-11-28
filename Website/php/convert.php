@@ -8,8 +8,8 @@
 	set_time_limit(360);
 
 	// Include files
-	include($_SERVER['DOCUMENT_ROOT'] . '/assets/includes/settings.php');
-	include($_SERVER['DOCUMENT_ROOT'] . '/assets/classes/converter.class.php');
+	include($_SERVER['DOCUMENT_ROOT'] . '/sudzc/assets/includes/settings.php');
+	include($_SERVER['DOCUMENT_ROOT'] . '/sudzc/assets/classes/converter.class.php');
 	
 	// Default properties
 	$mimeType = "application/zip";

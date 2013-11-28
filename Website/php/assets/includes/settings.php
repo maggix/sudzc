@@ -1,3 +1,3 @@
 <?php
-	$tempDirectory = "/var/www/sudzc.com/temp/";
+	$tempDirectory =  sys_get_temp_dir();
 ?>
